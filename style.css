@@ -1,0 +1,91 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Default Font Size  */
+
+html {
+	font-size: 62.5% ; 
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background-color : rgba(255, 224, 192, 0.668);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  text-align: center;
+  line-height: 5rem;
+  
+   
+
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+header h1 {
+  position: relative;
+  border: groove 6px;
+  background-color: hsl(165, 65%, 29%);
+  font-family: 'Rock Salt', cursive;
+}
+
+#form {
+  text-align: center;
+  line-height: 5rem;
+  border: groove 6px;
+  
+} 
+
+label {
+  font-size: 3rem;
+  font-family: 'Rock Salt', cursive;
+}
+
+.label {
+
+  font-size: 5rem;
+
+}
+
+.hidden{
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+Section p  {
+  font-size: medium;
+  border: solid 6px black;
+  padding: 3rem;
+  line-height: 4rem;
+}
+
+
