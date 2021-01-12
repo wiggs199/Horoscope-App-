@@ -4,8 +4,6 @@ document.querySelector('#new').addEventListener('click',clear)
 
 function birthday () {  
 
-    
-    
     var month = document.querySelector('#bmonth').value
     var date = document.querySelector("#bdate").value
 
@@ -74,9 +72,7 @@ function birthday () {
 
 function clear () {
 
-    document.querySelector("#newformone").reset();
-    document.querySelector("#newform").reset();
-    
+    window.location.reload();
     
 
         }
