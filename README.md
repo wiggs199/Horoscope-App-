@@ -1,2 +1,2 @@
 # Horoscope-App-
-Horoscope that finds your zodiac sign
+Horoscope that finds your zodiac sign - Javascript
